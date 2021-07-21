@@ -1,9 +1,10 @@
 class calculator:
-    def addNum(num1,num2):
+    def add(num1,num2):
         sumAdd = num1 + num2;
         print(sumAdd)
-    def minusNum(num1,num2):
+    def minus(num1,num2):
         sumSub = num1 - num2;
         print(sumSub)
-calculator.addNum(50,40)
-calculator.minusNum(50,40)
+    def muliply(num1,num2):
+calculator.add(50,40)
+calculator.minus(50,40)
